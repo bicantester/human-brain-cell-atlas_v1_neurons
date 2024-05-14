@@ -21,9 +21,6 @@ if [ $TDT_DEBUG = yes ]; then
     TIMECMD="/usr/bin/time -f ### DEBUG STATS ###\nElapsed time: %E\nPeak memory: %M kb"
 fi
 
-GITHUB_USER=$(git config user.name)
-GITHUB_EMAIL=$(git config user.email)
-
 datasets_dir="$HOME/tdt_datasets"
 
 # read project config to get datasets folder

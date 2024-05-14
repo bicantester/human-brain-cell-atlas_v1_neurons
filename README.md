@@ -1,3 +1,7 @@
+***Note: This version of the taxonomy is specifically pre-configured for testing purposes. For the general-purpose version, please refer to the [original repository]([https://github.com/brain-bican/taxonomy-development-tools](https://github.com/brain-bican/human-brain-cell-atlas_v1_neurons).***
+
+For details on setting up the test environment, please visit the [TDT test repository](https://github.com/bicantester/taxonomy-development-tools/) to see the test environment setup procedure. 
+
 # Human Brain Cell Atlas v1.0 (Neurons) (CS202210140)
 
 Atlas of human primary motor cortex (M1), developed in collaboration with the BRAIN Initiative Cell Census Network (BICCN).

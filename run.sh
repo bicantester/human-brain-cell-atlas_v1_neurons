@@ -45,4 +45,4 @@ fi
 echo "datasets_dir: $datasets_dir"
 mkdir -p "$datasets_dir"
 
-docker run -v "$PWD:/work" -v "$datasets_dir:/tdt_datasets" -w /work --rm -ti -p 3000:3000 -p 8000:8000 -p 5000:5000 ghcr.io/brain-bican/$IMAGE $TIMECMD "$@"
+docker run -v "$PWD:/work" -v "$datasets_dir:/tdt_datasets" -w /work --rm -ti -p 3000:3000 -p 5235:5000 ghcr.io/brain-bican/$IMAGE $TIMECMD "$@"

@@ -29,7 +29,7 @@ inputs = [
 commands = [
   ["make", "save"],
   ["git", "commit", "-a", "--message", "'{message}'"],
-  ["git", "pull"],
+  ["git", "pull", "--merge"],
   ["git", "push"]
 ]
 
